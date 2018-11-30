@@ -1,3 +1,7 @@
+body {
+    user-select: none;
+}
+
 .bgimage {
 	height: 600px;
 }
