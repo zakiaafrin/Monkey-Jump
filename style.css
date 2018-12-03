@@ -37,3 +37,9 @@ button {
 	left: 353px;
 	text-align: center;
 }
+#sound {
+    top: -50px;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}

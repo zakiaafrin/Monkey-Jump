@@ -44,9 +44,13 @@ function jump() {
     myMonkey.src = "Up_and_down.gif";
     var score = document.getElementById("lilBox");
     score.innerHTML = parseInt(score.innerHTML) + 1;
+    document.getElementById("sound").style.visibility="hidden";
+    document.getElementById("sound").play();    
 }
 
 function stop() {
     var myMonkey = document.getElementById("monkeyPic");
     myMonkey.src = "monkey.gif";
+    document.getElementById("sound").pause();
+
 }
